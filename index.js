@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-app.listen(() => console.log(`HEEEEEEW3333333333333333333333333EEEEEEEEY`));
+app.listen(() => console.log(`44444444444444444444444444444444444444444444444`));
 
 const Discord = require('discord.js');
 const client = new Discord.Client({
@@ -32,4 +32,4 @@ client.on('ready', () => {
         if (message.content === "totoot") return message.reply("working")
     });
 
-client.login("MTAxMzA4MTc1NDc5NTUyNDIxOA.G_k7bC.KjsP8LKB8SDmbclV64_5UeqpUS3gZP5X6BiUvI");
+client.login("MTAxMzA4MTQyOTczNjk1MTkyOA.GP3yE1.oiDsmVngfS3CDOJpPl75cXv3dQoiJxRsUs6Ng4");
