@@ -15,8 +15,8 @@ Discord.Intents.FLAGS.GUILD_PRESENCES,
 });
 
 const prefix = "$";
-console.log('Token is: '+(token === "MTAxMzA4MTUyNjg4MTIyNjc5Mg.GlYrAg.mlsI4lBYts3RIWTaK86SAMSEz2o_SrIGI4oC-g" ? 'Correct' : 'Wrong'))
 let token = "MTAxMzA4MTUyNjg4MTIyNjc5Mg.GlYrAg.mlsI4lBYts3RIWTaK86SAMSEz2o_SrIGI4oC-g";
+console.log('Token is: '+(token === "MTAxMzA4MTUyNjg4MTIyNjc5Mg.GlYrAg.mlsI4lBYts3RIWTaK86SAMSEz2o_SrIGI4oC-g" ? 'Correct' : 'Wrong'))
 client.login(token);
 
 client.on('ready', () => {
