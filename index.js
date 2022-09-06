@@ -15,7 +15,7 @@ Discord.Intents.FLAGS.GUILD_PRESENCES,
 });
 
 const prefix = "$";
-client.login("MTAxMzA4Mjg1OTY3MTY2NjcxOA.GgSBHT.BSijGCrufQfZvFq-B0yAmmlBV8AL3q_csjZNk8");
+client.login("MTAxMzA4Mjg1OTY3MTY2NjcxOA.GayzTv.7eTJ2YajHm6tt2OM6D-o_oV9r1NvJG3k_iXui8");
 
 client.on('ready', () => {
     // channel = client.channels.cache.get('977969551117520916');
