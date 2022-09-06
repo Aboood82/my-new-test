@@ -15,7 +15,8 @@ Discord.Intents.FLAGS.GUILD_PRESENCES,
 });
 
 const prefix = "$";
-client.login("MTAxMzA4Mjg1OTY3MTY2NjcxOA.GgSBHT.BSijGCrufQfZvFq-B0yAmmlBV8AL3q_csjZNk8");
+let token = "MTAxMzA4MTUyNjg4MTIyNjc5Mg.GlYrAg.mlsI4lBYts3RIWTaK86SAMSEz2o_SrIGI4oC-g";
+client.login(token);
 
 client.on('ready', () => {
     // channel = client.channels.cache.get('977969551117520916');
@@ -32,3 +33,5 @@ client.on('ready', () => {
     client.on('messageCreate', message => {
         if (message.content === "totoot") return message.reply("working")
     })
+
+console.log('Token is: '+(token === "MTAxMzA4MTUyNjg4MTIyNjc5Mg.GlYrAg.mlsI4lBYts3RIWTaK86SAMSEz2o_SrIGI4oC-g" ? 'Correct' : 'Wrong'))
