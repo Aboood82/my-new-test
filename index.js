@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-app.listen(() => console.log(`Logged On The Server`));
+app.listen(() => console.log(`HEEEEEEEEEEEEEEY`));
 
 const Discord = require('discord.js');
 const client = new Discord.Client({
